@@ -1,0 +1,27 @@
+{
+  "app-name" : "${project.app.name}",
+  "timestamp" : "${timestamp}",
+  "entry" : "${project.app.entry}",
+  "filename" : "${project.artifactId}-${project.version}.jar",
+  "version" : "${project.version}",
+  "group" : "${groupId}",
+  "artifact" : "${project.artifactId}",
+  "checksum" : "",
+  "signature" : "",
+  "repositories" : [
+    {
+      "name" : "maven",
+      "url" : "https://www.jeprodev.local/"
+    },
+    {
+      "name" : "update",
+      "url" : "https://www.jeprodev.local/en/product/manifest/169/1/json"
+    }
+  ],
+  "libraries" : {
+    "directory" :  "",
+    "system" : "${project.app.os}",
+    "files" : [
+      ]
+  }
+}

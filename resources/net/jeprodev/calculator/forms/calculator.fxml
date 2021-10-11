@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="jeproCalculatorWrapper" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.jeprodev.calculator.JeprodevCalculatorController">
+    <MenuBar>
+        <Menu text="File" />
+    </MenuBar>
+    <Label fx:id="calculatorTextField" alignment="CENTER_RIGHT"   />
+    <GridPane fx:id="calculatorLayout" >
+        <Button fx:id="calculatorSecondOperator" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Button fx:id="calculatorPiValue" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Button fx:id="calculatorNaturalLogarithmBaseValue" text="e" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <Button fx:id="calculatorClearOperator" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <Button fx:id="calculatorSuppressOperator" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+        <Button fx:id="calculatorPowerThreeOperator" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Button fx:id="calculatorInverseOperator" text="1/x" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button fx:id="calculatorAbsoluteOperator" text="|x|" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Button fx:id="calculatorExponentialOperator" text="exp" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Button fx:id="calculatorModularOperator" text="mod" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Button fx:id="calculatorCubicSquareRootOperator" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Button fx:id="calculatorLeftParenthesisOperator" text="(" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button fx:id="calculatorRightParenthesisOperator" text=")" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button fx:id="calculatorFactorialOperator" text="n!" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Button fx:id="calculatorDivideOperator" text="/" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Button fx:id="calculatorPowerOfXToYOperator" textAlignment="CENTER" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+        <Button fx:id="calculatorSevenValue" text="7" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button fx:id="calculatorEightValue" text="8" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Button fx:id="calculatorNineValue" text="9" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Button fx:id="calculatorMultiplyOperator" text="*" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Button fx:id="calculatorPowerOfTenOperator" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Button fx:id="calculatorFourValue" text="4" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Button fx:id="calculatorFiveValue" text="5" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Button fx:id="calculatorSixValue" text="6" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Button fx:id="calculatorSubtractOperator" text="-" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <Button fx:id="calculatorLogarithmOperator" text="log" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Button fx:id="calculatorOneValue" text="1" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <Button fx:id="calculatorTwoValue" text="2" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <Button fx:id="calculatorThreeValue" text="3" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+        <Button fx:id="calculatorAdditionOperator" text="+" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+        <Button fx:id="calculatorNaturalLogarithmOperator" text="ln" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+        <Button fx:id="calculatorNegationOperator" text="+/-" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <Button fx:id="calculatorZeroValue" text="0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+        <Button fx:id="calculatorCommaOperator" text="," textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+        <Button fx:id="calculatorEqualOperator" text="=" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <columnConstraints>
+         <ColumnConstraints minWidth="42" />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+      </rowConstraints>
+    </GridPane>
+</VBox>
