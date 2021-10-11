@@ -29,6 +29,7 @@ public abstract class AbstractCalculatorTest extends ApplicationTest {
         release(new MouseButton[]{});
     }
 
+    @SuppressWarnings("unchecked")
     public <N extends Node> N find(final String query){
         return (N) lookup(query).queryAll().iterator().next();
     }
